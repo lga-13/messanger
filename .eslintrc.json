@@ -1,0 +1,15 @@
+  {
+  "extends": [
+    "airbnb",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "max-len": [2, 120],
+    "no-param-reassign": "off",
+    "max-params": [2, 4]
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}

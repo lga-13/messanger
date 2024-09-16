@@ -1,0 +1,120 @@
+@import url("../../public/static/styles/variables.css");
+
+.settings-page{
+    display: flex;
+    flex-direction: row;
+    font-family: var(--main-font);
+    font-weight: 500;
+    width: 1280px;
+    height: 720px;
+    margin-bottom: 500px;
+}
+
+.settings-data {
+    flex: 4;
+}
+
+.settings-page-img{
+    position: relative;
+    width: 98px;
+    height: 99px;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    margin-left: 155px;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.settings-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98px;
+    height: 99px;
+}
+
+.settings-change-img{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 98px;
+    height: 99px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: var(--avatar-link-color);
+    color: var(--white-color);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    text-decoration: underline;
+}
+
+.settings-page-img:hover .settings-change-img{
+    opacity: 1;
+}
+
+.settings-label {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--dark-grey-color);
+    margin-bottom: 43px;
+    margin-left: 0;
+}
+
+.settings-hr {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.settings-change-data {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+    font-size: 14px;
+    color: var(--main-color);
+}
+
+.settings-change-password {
+    display: flex;
+    justify-content: start;
+    font-size: 14px;
+    margin-top: 25px;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.settings-change-exit{
+    display: flex;
+    justify-content: start;
+    font-size: 14px;
+    margin-top: 20px;
+    color: var(--error-message-color);
+    margin-bottom: 30px;
+}
+
+.settings-window {
+    width: 850px;
+    height: 720px;
+    flex: 8;
+    border: none;
+    border-left: 1px solid var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-window-link {
+    text-align: center;
+    color: var(--main-color);
+    font-size: 14px;
+}
+
+.settings-btn-back{
+    width: 28px;
+    height: 28px;
+    background: url("../../public/static/img/btn-back.svg");
+    border: none;
+    padding: 0;
+}

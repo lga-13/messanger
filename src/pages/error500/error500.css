@@ -1,0 +1,30 @@
+@import url("../../public/static/styles/variables.css");
+
+.error {
+    width: 1280px;
+    height: 720px;
+    margin: 247px auto;
+}
+
+.error500-title {
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 64px;
+}
+
+.error500-message {
+    text-align: center;
+    font-family: var(--thirdly-font);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.error500-back-chats {
+    display: flex;
+    justify-content: center;
+    font-family: var(--thirdly-font);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--main-color);
+}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Manuale;
+  src: url("../fonts/Manuale/Manuale-Medium.ttf")
+}
+
+@font-face {
+  font-family: Montserrate;
+  src: url("../fonts/Montserrate/MontserratAlternates-Medium.ttf");
+}
+
+:root {
+  /* stylelint-disable-next-line value-keyword-case */
+  --main-font: Manuale, sans-serif;
+  /* stylelint-disable-next-line value-keyword-case */
+  --secondary-font: Inter, sans-serif;
+  /* stylelint-disable-next-line value-keyword-case */
+  --thirdly-font: Montserrate, sans-serif;
+  --main-color: #1D90D1;
+  --secondary-color: #999;
+  --black-color: black;
+  --white-color: white;
+  --error-message-color: #DF6058;
+  --dark-grey-color: #575757;
+  --light-grey-color: #757575;
+  --light-background-color: #D9D9D9;
+  --message-background-color: #EBEBEB;
+  --message-chain-active-chat: #549ef54d;
+  --message-chain-messages-window: #7492666B;
+  --avatar-link-color: #868686;
+}
