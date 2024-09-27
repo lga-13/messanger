@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Manuale;
+    src: url("public/fonts/Manuale/Manuale-Medium.ttf")
+}
+
+.login-form {
+    width: 340px;
+    height: 450px;
+    margin: 118px auto;
+    padding: 20px;
+    border: 1px solid #1D90D1;
+    border-radius: 20px;
+}
+
+.login-form__title {
+    text-align: center;
+    margin-bottom : 62px;
+    font-family: "Manuale", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.login-form__label {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    color: #999999;
+    display: block;
+    margin-bottom: 0;
+}
+
+.login-form__input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black ;
+}
+
+.login-form__forgot-password {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 93px;
+    color: #1D90D1;
+}
+
+.login-form__button {
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: 40px;
+    background-color: #1D90D1;
+    color: white;
+    border: 1px solid #1D90D1;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form__registration {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+    margin-top: 10px;
+}

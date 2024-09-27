@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Manuale;
+    src: url("public/fonts/Manuale/Manuale-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Montserrate;
+    src: url("public/fonts/Montserrate/MontserratAlternates-Medium.ttf");
+}
+
+.error404 {
+    height: 90px;
+    margin: 247px auto;
+}
+
+.error404__title {
+    text-align: center;
+    font-family: "Manuale", sans-serif SemiBold;
+    font-size: 40px;
+}
+
+.error404__message {
+    text-align: center;
+    font-family: "Montserrate", sans-serif Medium;
+    font-size: 24px;
+}
+
+.error404__back-chats {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrate", sans-serif Medium;
+    font-size: 16px;
+    color: #1D90D1;
+}

@@ -1,0 +1,46 @@
+<meta charset="utf-8">
+<link rel="stylesheet" href="chats.css">
+
+<main>
+    <div class="chats">
+
+        <div class="chats-tape">
+
+            <div class="chats__account-nav">
+                <a class="chats__account" href="#">Аккаунт</a>
+            </div>
+
+            <form class="chats__search-box">
+                <input class="chats__search-input" type="text" placeholder="Поиск">
+                <button class="chats__search-btn" type="submit" value="Search">
+                    <img src="/public/static/img/search.svg" alt="search">
+                </button>
+            </form>
+
+            {{#each chats}}
+            <hr>
+                <div class="chats__message">
+                    <img class="chats__img" src="/public/static/img/chat{{@index}}.svg" alt="photo">
+
+                    <div class="chats__text">
+                        <span class="chats__message-sender">{{this.sender}}</span>
+                        <div class="chats__message-answer">
+                            <span class="chats__your-message">{{this.your}}</span>
+                            <span class="chats__message-content">{{this.content}}</span>
+                        </div>
+                    </div>
+
+                    <div class="chats__time-and-count">
+                        <span class="chats__time">{{this.time}}</span>
+                        {{#if count}}<span class="chats__count">{{this.count}}</span>{{/if}}
+                    </div>
+                </div>
+            {{/each}}
+
+        </div>
+        <div class="chats-plug">
+            <a class="chats-plug__message" href="#">Выберите чат, чтобы начать общаться.</a>
+        </div>
+    </div>
+</main>
+

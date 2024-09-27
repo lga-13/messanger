@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<link rel="stylesheet" href="login-form.css">
+
+<main>
+    <form class="login-form">
+        <h2 class="login-form__title">Войти</h2>
+
+        {{#each login}}
+            <label class="login-form__label" for="{{this.name}}">{{this.nameru}}</label>
+            <input class="login-form__input" type="text" id="{{this.name}}" name="{{this.name}}" placeholder="">
+        {{/each}}
+
+        <a class="login-form__forgot-password" href="#">Забыли пароль?</a>
+
+        <button class="login-form__button" type="submit">Авторизоваться</button>
+
+        <a class="login-form__registration" href="#">Еще не зарегистрированы?</a>
+    </form>
+</main>
+

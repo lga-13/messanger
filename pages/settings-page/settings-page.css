@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Manuale;
+    src: url("/public/fonts/Manuale/Manuale-Medium.ttf")
+}
+
+.settings-page{
+    display: flex;
+    flex-direction: row;
+    font-family: "Manuale", sans-serif Medium;
+}
+
+.settings-data {
+    width: 430px;
+    height: 720px;
+    flex: 4;
+}
+
+.settings__img {
+    border-radius: 25%;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    margin-left: 340px;
+    width: 98px;
+    height: 99px;
+}
+
+.settings__label {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 13px;
+    color: #999999;
+    margin-bottom: 12px;
+    margin-left: 0;
+}
+
+.settings__input {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+    color: #1E1E1E;
+    outline: none;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.settings__change-data {
+    display: flex;
+    justify-content: start;
+    margin-top: 59px;
+    font-size: 14px;
+    color: #1D90D1;
+}
+
+.settings__change-password {
+    display: flex;
+    justify-content: start;
+    font-size: 14px;
+    margin-top: 25px;
+    color: #1D90D1;
+    margin-bottom: 30px;
+}
+
+.settings-window {
+    width: 850px;
+    height: 720px;
+    flex: 8;
+    border: none;
+    border-left: 1px solid #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-window__message {
+    text-align: center;
+    color: #1D90D1;
+    font-size: 14px;
+}
+
+.settings__btn-back{
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    border: none;
+    background: none;
+    padding: 0;
+}

@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<link rel="stylesheet" href="settings-page.css">
+
+<main>
+    <div class="settings-page">
+        <form class="settings-data">
+            <img class="settings__img" src="/public/static/img/avatar.svg" alt="photo">
+
+            {{#each setting}}
+                <label class="settings__label" for="{{this.name}}">{{this.nameru}}</label>
+
+                <input class="settings__input" type="text" id="{{this.name}}"
+                       name="{{this.name}}" value="{{this.value}}" readonly>
+
+                <hr>
+            {{/each}}
+
+            <a class="settings__change-data" href="#">Изменить личные данные</a>
+
+            <a class="settings__change-password" href="#">Сменить пароль</a>
+
+            <button class="settings__btn-back">
+                <a href=""><img src="/public/static/img/btn-back.svg" alt="btn"></a>
+            </button>
+        </form>
+
+        <div class="settings-window">
+            <a class="settings-window__message" href="#">Выберите, какие изменения хотите внести.</a>
+        </div>
+    </div>
+</main>
+

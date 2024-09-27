@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<link rel="stylesheet" href="registration-form.css">
+
+<main>
+    <form class="registration-form">
+        <h2 class="registration-form__title">Регистрация</h2>
+
+        {{#each registration}}
+            <label class="registration-form__label" for="{{this.name}}">{{this.nameru}}</label>
+            <input class="registration-form__input" type="text" id="{{this.name}}" name="{{this.name}}" placeholder="">
+        {{/each}}
+
+        <button class="registration-form__button" type="submit">Зарегистрироваться</button>
+
+        <a class="registration-form__login" href="#">Войти</a>
+    </form>
+</main>
+
